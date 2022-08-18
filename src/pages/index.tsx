@@ -1,22 +1,20 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import { Component } from '../types/types'
 
-interface Props {
-  className?: string
-  foo: string
+interface Props extends Component {
+  
 }
 
 export function getStaticProps() {
   return {
     props: {
-      foo: "bar"
-    }
+      
+    },
+    revalidate: 60
   }
 }
 
-function Page({ foo }: Props) {
-    return <div className="font-bold">New page here ({foo})</div>
+function Page({}: Props) {
+    return <div className="">New page here</div>
 }
 
 export default Page
