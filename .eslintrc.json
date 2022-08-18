@@ -1,3 +1,14 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    "react-hooks/exhaustive-deps": 0,
+    "quotes": ["error", "backtick"],
+    "prettier/prettier": ["error", {
+      "arrowParens": "avoid",
+      "semi": false,
+      "trailingComma": "es5",
+      "printWidth": 80
+    }]
+  },
+  "plugins": ["prettier", "react-hooks"]
 }
