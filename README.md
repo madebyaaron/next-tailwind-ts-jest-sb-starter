@@ -1,34 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Made By Aaron - Blog
 
-## Getting Started
+## Atoms
+- [] Nav Link
+- [] Link
+- [] Heading
+- [] Text
+- [] Form
+- [] Text Input
+- [] Submit Button
+- [] Image
+- [] Text Link
+- [] Thumb Button
+- [] Button
+## Sections
+- [] Global Navigation
+- [] Home Hero
+- [] Series Hero
+- [] Project Hero
+- [] Content Train
+- [] Content Showcase
+- [] Content Grid
+- [] Email Signup CTA
+- [] Global Footer
+- [] Shot lightbox
 
-First, run the development server:
+## Comps
+- [] Project card
+- [] Content train
+- [] Rich text
+- [] Lightbox
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Pages
+- [] Home
+- [] Project
+- [] Artcle
+- [] Article list
+- [] Series landing page
+- [] Series shot
+- [] 404 Page
+- [] 500 Page
+- [] Privacy
+- [] Sitemap
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Integrations
+- [] Sanity
+- [] Sentry
+- [] Google analytics
+- [] Google search console
+- [] Email sign up provider (tbc)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Events
+- [] Home page visits
+- [] Project page visits
+- [] Article page visits
+- [] Top Articles
+- [] Article visited
+- [] Article ~ read
+- [] Related article card clicked
+- [] Number of Articles read per session
+- [] Articles pagination controls used
+- [] Devlog page visits
+- [] Top devlogs
+- [] Devlog visited
+- [] Devlog ~ read
+- [] Number of Devlogs read per session
+- [] Devlog pagination controls used
+- [] Series pagination controls used
+- [] Series lightbox opened
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Checks
+- [] 100 Perf score on all pages
+- [] Pages update within 1 minute
+- [] All pages indexable
+- [] Article SEO schema
+- [] Series SEO schema
+- [] Project SEO schema
+- [] Shot SEO schema
+- [] Subscribers don't see CTA signup section
+- [] Event tracking complete and working
